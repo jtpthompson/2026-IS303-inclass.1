@@ -30,7 +30,7 @@ sex = input("Sex: ")
 height = input("Height (inches): ")
 weight = input("Weight (Pounds): ")
 
-# Inpute validation
+# Input validation
 age = age.replace(".","",1)
 age_is_int = age.isdigit()
 if age_is_int == True:
